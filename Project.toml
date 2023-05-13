@@ -1,7 +1,11 @@
-name = "PostCFD-vis"
+name = "PostCFDvis"
 uuid = "521750be-c378-4249-8404-32bc4f32a964"
 authors = ["Yuta Iwatani <yuta.iwatani.cfd@gmail.com> and contributors"]
 version = "1.0.0-DEV"
+
+[deps]
+PlotlyJS = "f0f68f2c-4968-5e81-91da-67840de0976a"
+PostCFD = "7569ea13-7d3d-4d5a-b07b-f32353060e2b"
 
 [compat]
 julia = "1"
