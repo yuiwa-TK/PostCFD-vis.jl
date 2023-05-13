@@ -1,0 +1,13 @@
+name = "PostCFD-vis"
+uuid = "521750be-c378-4249-8404-32bc4f32a964"
+authors = ["Yuta Iwatani <yuta.iwatani.cfd@gmail.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
